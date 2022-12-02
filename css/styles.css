@@ -236,15 +236,12 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
 
 .benefits-bg {
         margin-bottom: 30px;
+        padding: 25px 100px;
         align-items: center;
         justify-content: center;
         background-color: var(--sec-bg-color);
 }
 
-.benefits-icon {
-       display: flex;
-       padding: 25px 100px;  
-}
 
 .benefits-title {
         font-weight: 700;
