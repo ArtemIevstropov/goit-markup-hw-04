@@ -299,6 +299,7 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
         line-height: 1.19;
 }
 .team-text {
+        margin-bottom: 16px;
         font-size: 16px;
         line-height: 1.19;
         color: var(--sec-text-color);
@@ -314,12 +315,12 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
         margin-right: 30px;
 }
 
-.team-img {
-        margin-bottom: 30px;
+.team-descr {
+        padding-top: 30px;
+        padding-bottom: 30px;
 }
 
 .team-item {
-        padding-bottom: 30px;
         text-align: center;
         background-color: var(--main-bg-color);
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -443,6 +444,11 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
         line-height: 1.71;
         font-style: normal;
         color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress .link:hover,
+.footer-adress .link:focus {
+        color: var(--hover-text-color);
 }
 
 .footer-adress:not(:last-child):not(:last-child) {
